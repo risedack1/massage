@@ -65,4 +65,24 @@ new Swiper('.slider', {
     touchRatio: 1,
 
     spaceBetween: 100,
+
+    loop: true,
+
+    breakpoints: {
+        // when window width is >= 320px
+        740: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        1150: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        // when window width is >= 640px
+        1500: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        }
+    }
 });
