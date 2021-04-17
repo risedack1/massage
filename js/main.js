@@ -4,19 +4,23 @@ $(document).ready(function() {
     });
 
     $('.service__item-first, .service__content-first').click(function(e) {
-        $('.service__item-first, .service__content-first').toggleClass('active-service__item');
+        $('.service__content-first').toggleClass('active-service__item');
     });
 
     $('.service__item-second, .service__content-second').click(function(e) {
-        $('.service__item-second, .service__content-second').toggleClass('active-service__item');
+        $('.service__content-second').toggleClass('active-service__item');
     });
 
     $('.service__item-third, .service__content-third').click(function(e) {
-        $('.service__item-third, .service__content-third').toggleClass('active-service__item');
+        $('.service__content-third').toggleClass('active-service__item');
     });
 
-    $('.service__item').click(function(e) {
-        $('.header__service').toggleClass('active-service__item');
+    $('.service__item-four, .service__content-four').click(function(e) {
+        $('.service__content-four').toggleClass('active-service__item');
+    });
+
+    $('.service__item-five, .service__content-five').click(function(e) {
+        $('.service__content-five').toggleClass('active-service__item');
     });
 
     $(".nav").on("click", ".nav__link", function(event) {
